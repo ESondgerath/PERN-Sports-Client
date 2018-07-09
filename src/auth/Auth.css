@@ -1,0 +1,70 @@
+.auth-container { 
+    background-color: rgba(225,225,255,0.4);
+    margin-top: 15em;
+    padding: 2em;
+    border-radius: 1em;
+    border: rgba(225,225,225,0.2) solid 5px;
+    /* border: 1px solid #e5e5e5; */
+    /* border-radius: 0.4em; */
+    font-weight: 500;
+}
+
+.signup-box {
+    background-color: rgba(0,0,0,0.2);
+	border: rgba(0, 0, 0, 0.5) solid 2px;
+    border-radius: 0.6em;
+    box-shadow: 2px 2px 2px 0px black;
+    padding-bottom: 1em;
+}
+
+.signup-box:hover {
+    box-shadow: 2px 2px 2px 0px inset;
+}
+
+.login-box {
+    background-color: rgba(0,0,0,0.2);
+	border: rgba(0, 0, 0, 0.5) solid 2px;
+    border-radius: 0.6em;
+    box-shadow: 2px 2px 2px 0px black; 
+    padding-bottom: 1em;
+}
+
+.login-box:hover {
+    box-shadow: 2px 2px 2px 0px inset;
+}
+
+.auth-row {
+    margin: 0 0 0 0;
+}
+/*
+********** Panel Boxes **********
+*/
+
+container.mainBox {
+	background-color: rgba(225,225,255,0.2);
+	margin: 0 0 2.0em 30.0em;
+	padding: 1.5em 0 2.0em 1.5em;
+	display: inline-block;
+	border-radius: 1em;
+	border: rgba(225,225,225,0.1) solid 5px
+}
+
+container div.panel {
+	float: left;
+	position: relative;
+	width: 400px;
+	margin: 0 0.5em 2.0em 2.25em;
+	padding: 1.0em;
+	background-color: rgba(225,225,225,0.1);
+	border: rgba(0, 0, 0, 0.5) solid 2px;
+    border-radius: 0.6em;
+    box-shadow: 2px 2px 2px 0px black;
+}
+
+container div.panel:hover {
+	box-shadow: 2px 2px 2px 0px inset;
+}
+
+container div.panel img.berryBox {
+	width: 100%;
+}

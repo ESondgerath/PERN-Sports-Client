@@ -1,0 +1,49 @@
+.main-container { 
+    background-color: rgba(225,225,255,0.4);
+    margin-top: 15em;
+    padding: 2em;
+    border-radius: 1em;
+    border: rgba(225,225,225,0.2) solid 5px;
+    font-weight: 500;
+}
+
+.eventsBox {
+    background-color: rgba(0,0,0,0.2);
+	border: rgba(0, 0, 0, 0.5) solid 2px;
+    border-radius: 0.6em;
+    box-shadow: 2px 2px 2px 0px black;
+    padding-bottom: 1em;
+    /* width: 20%;
+    height: 20%; */
+}
+
+.eventsBox:hover {
+    box-shadow: 2px 2px 2px 0px inset;
+}
+
+.teamsBox {
+    background-color: rgba(0,0,0,0.2);
+	border: rgba(0, 0, 0, 0.5) solid 2px;
+    border-radius: 0.6em;
+    box-shadow: 2px 2px 2px 0px black; 
+    padding-bottom: 1em;
+}
+
+.teamsBox:hover {
+    box-shadow: 2px 2px 2px 0px inset;
+}
+
+.teamImg {
+    /* background: url("http://www.homelifeabroad.com/homelifeabroad/uploads/2017/04/lol-stadium.jpg") no-repeat top center fixed; */
+    width: 300px;
+    /* height: auto; */
+}
+
+.teamsBox img {
+    width: 300px;
+    height: auto;
+}
+
+.row {
+    margin: 0 0 0 0;
+}

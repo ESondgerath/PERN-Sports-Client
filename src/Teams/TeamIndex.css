@@ -1,0 +1,19 @@
+.team-container { 
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    margin-top: 15em;
+    padding: 2em;
+    border-radius: 1em;
+    border: rgba(225,225,225,0.2) solid 5px;
+    /* border: 1px solid #e5e5e5; */
+    /* border-radius: 0.4em; */
+    font-weight: 500;
+}
+
+.delete-button {
+    margin-right: 2em;
+}
+
+.update-button {
+    margin-left: 2em;
+}
