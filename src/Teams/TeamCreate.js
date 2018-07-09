@@ -20,7 +20,7 @@ class TeamCreate extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`${APIURL}/api/teams/create`, {
+        fetch(`${APIURL}/api/team/create`, {
             method: 'POST',
             body: JSON.stringify({ Teams: this.state }),
             headers: new Headers({
