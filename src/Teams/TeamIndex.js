@@ -22,7 +22,7 @@ class TeamIndex extends Component{
     }
 
     fetchTeams = () => {
-        fetch(`${APIURL}/api/teams/`, {
+        fetch(`${APIURL}/api/team/`, {
             method: 'GET',
             headers: new Headers({
                 'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ class TeamIndex extends Component{
     }
 
     TeamsDelete = (event) => {
-        fetch(`${APIURL}/api/teams/updateteams`, {
+        fetch(`${APIURL}/api/team/delete`, {
           method: 'DELETE',
           body: JSON.stringify({ Teams: { id: event.target.id } }),
           headers: new Headers({
@@ -48,7 +48,7 @@ class TeamIndex extends Component{
     }
 
     TeamsUpdate = (event, team) => {
-        fetch(`${APIURL}/api/teams/delete`, {
+        fetch(`${APIURL}/api/team/updateteams`, {
           method: 'PUT',
           body: JSON.stringify({ Teams: team }),
           headers: new Headers({
@@ -83,7 +83,7 @@ class TeamIndex extends Component{
                 </Col>
                 <Col md="12">  
                     {
-                        this.state.updatePressed ? <TeamEdit t={this.state.updatePressed} update={this.TeamsUpdate} team={this.state.TeamsToUpdate} />
+                        this.state.updatePressed ? <TeamEdit t={this.state.updatePressed} update={this.TeamsUpdate} Teams={this.state.TeamsToUpdate} />
                         : <div></div>
                     }
                 </Col>

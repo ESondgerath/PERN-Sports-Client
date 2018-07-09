@@ -48,16 +48,16 @@ class EventCreate extends Component {
                 <hr />
                 <Form onSubmit={this.handleSubmit} >
                     <FormGroup>
-                        <Label for="name">Name</Label>
-                        <Input id="name" type="text" name="name" value={this.state.name} placeholder="enter name" onChange={this.handleChange} />
+                        <Label for="eventname">Name</Label>
+                        <Input id="eventname" type="text" name="name" value={this.state.name} placeholder="enter name" onChange={this.handleChange} />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="date">Date</Label>
-                        <Input id="date" type="text" name="date" value={this.state.date} placeholder="enter date" onChange={this.handleChange} />
+                        <Label for="eventdate">Date</Label>
+                        <Input id="eventdate" type="text" name="date" value={this.state.date} placeholder="enter date" onChange={this.handleChange} />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="teams">Teams</Label>
-                        <Input id="teams" type="text" name="teams" value={this.state.teams} placeholder="enter team count" onChange={this.handleChange} />
+                        <Label for="eventteams">Teams</Label>
+                        <Input id="eventteams" type="text" name="teams" value={this.state.teams} placeholder="enter team count" onChange={this.handleChange} />
                     </FormGroup>
                     <Button type="submit" color="primary">Submit</Button>
                 </Form>

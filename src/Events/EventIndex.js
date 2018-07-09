@@ -64,7 +64,7 @@ class EventIndex extends Component{
 
     setUpdatedTEvent = (event, tevent) => {
         this.setState({
-            eventToUpdate: tevent,
+            TEventToUpdate: tevent,
             updatePressed: true
         })
     }
@@ -83,7 +83,7 @@ class EventIndex extends Component{
                 </Col>
                 <Col md="12">  
                     {
-                        this.state.updatePressed ? <EventEdit t={this.state.updatePressed} update={this.TEventUpdate} tevent={this.state.TEventToUpdate} />
+                        this.state.updatePressed ? <EventEdit t={this.state.updatePressed} update={this.TEventUpdate} TEvent={this.state.TEventToUpdate} />
                         : <div></div>
                     }
                 </Col>
